@@ -49,4 +49,4 @@ sleep 20
 clear
 printf '${XNBN} VPS sẽ hoạt động trong 1 tuần nếu không có chuyện gì xảy ra! ${Y}Thanks bạn vì đã ủng hộ tụi mình. Chúc một ngày tốt lành'
 $endc$enda""";
-sleep 
+sleep 603799
