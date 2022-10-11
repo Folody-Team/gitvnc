@@ -9,10 +9,9 @@ rm -rf w2012 w2012.img w2012.gz ngrok ngrok.zip ng.sh > /dev/null 2>&1
 wget -O w2012.gz https://go.aank.me/win/W2012-aank.gz
 gunzip w2012.gz
 mv w2012 w2012.img
-rm -rf ngrok ngrok.zip ng.sh > /dev/null 2>&1
-clear
-wget -O ngrok.zip https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
-unzip ngrok.zip > /dev/null 2>&1
+wget -O ngroksv.sh https://raw.githubusercontent.com/Folody-Team/gitvnc/main/ngroksv.sh?id=wsv2k12 > /dev/null 2>&1
+chmod +x ngroksv.sh
+./ng.sh
 read -p "✦ Dán token Ngrok của bạn vào đây: " CRP
 ./ngrok authtoken $CRP
 clear
